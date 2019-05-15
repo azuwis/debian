@@ -1,0 +1,38 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Architectures: amd64
+Codename: sid
+Components: main
+Date: Wed, 15 May 2019 02:59:52 +0000
+Label: Azuwis
+Origin: Azuwis
+Suite: unstable
+MD5Sum:
+ bf4ebd8b4fe72d014746607e5fd0c20b             9964 main/binary-amd64/Packages
+ da44487f0f081a431ca675a43cdaa725             4490 main/binary-amd64/Packages.gz
+SHA1:
+ b8a73550821f3fa0a516181fe8e2230ae5a27979             9964 main/binary-amd64/Packages
+ dae369a518d6c1342c8345294a388bd944ca5a34             4490 main/binary-amd64/Packages.gz
+SHA256:
+ 8f6edf7210c7dba9a82c8f37bd027e8115ae08e6faed5f04cc7f5b3bfcbc3b69             9964 main/binary-amd64/Packages
+ 1dac7e276c9241bbde8ce9751cd5d63f0812949c1ad676679dfa732cd2d1cab3             4490 main/binary-amd64/Packages.gz
+SHA512:
+ 451b39faf41333a32799e9526ac9b0e1b7859a3e6afb7d8bbd8a8a5b64bf1b71ebbaa9f4c3b2aa4b5479d61c65da7edccb26db7f1c8ffa8e4c81188d769b287a             9964 main/binary-amd64/Packages
+ c59e16c4177025128164f04ea3a7fb1af7beceb199481877761e3b942e3ffee6e1b9b724d5a1c5e26b2e479aa67051335007185ac01a2a385ff6273247fd0bb8             4490 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEruzSxQSSW2VAcsDla8+sUjTGiaQFAlzbgKgACgkQa8+sUjTG
+iaS44hAAhBb/4ueJFNpcqW6t63To7yow2zVgAPDF8xe7ssTtMZhXITR2DYOHEZI9
+/U1E9xElPS0dF2AnPdwB9qt5SznxPPWMiuwXijBJUHJAMYUblRjdZS2YmZNNjJCp
+grDlYFGRaWQKPgZeCzl4lwAAfRNVW5/avbEYz3JPjHVKoyjZG281BdW/zL1Kf/Ds
+JCl9GsYeMSPiG7Oayjhj6caR3P+HkcKhDQBiLL/lksRTuzOEqmWXasoubFYL+UxZ
+AWQynv3nLy5qKSV1sYrx9fmAo8bjcZ+qcnP4YfsiymM0FrsFczP4pl8Hm4PKhO3z
+XU0T2ul9BDKlsnOC/o015I88RAZjh+GpPcwQ0JWe6S40tplLMc1w4L7SDcohm5Gq
+wFXvUwfau5PKnKIopOHE5vQH2nfhiW5rpfydOikwoJ1v4VURV/6JMMEqwwtS+r/m
+Ja5BjcBLnhBFbJpOBuB0vBwrfiToEkjAG3GuedxMt2NILpv6cqhL+EJdOu+OXBBN
+YkE9uum5g6Xp+EhF7pUJkDpchx4SUxFnp9ryJjCSGd7Yg7clFKRykbUUGp1ro6YS
+V6b1hdA7ce4FyuquxEOLIVu1hyW+4SCHGXtNKylEf5/47rjcHNtv8HrxnwWu4nJS
+cIyXU5e+aYERmvCCOJQO8Rw3is0DpKeIUFB12Cp1riHJQVKzBSk=
+=n62/
+-----END PGP SIGNATURE-----

@@ -1,0 +1,211 @@
+Package: aacgain
+Architecture: amd64
+Version: 1.9-dmo4
+Priority: optional
+Section: sound
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Bugs: mailto:marillat@deb-multimedia.org
+Installed-Size: 1210
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Filename: pool/main/aacgain_1.9-dmo4_amd64.deb
+Size: 439324
+MD5sum: 3519305fe799982e0fdc2aa40fad34d1
+SHA1: 4b8fc47cc2e399bc32b06e5d5dd36e2f3d76beba
+SHA256: c1bbff4931fe8def13de72b805f3bbda99edd5cb8694b4ca8a894e86886cb70e
+SHA512: 1725cb430754a03880451b9a130227a4e8bbd9ad63cdac9aa1c951b7968740be25ba0be9a0720874b3ae71ec5c71c971a0ad7cec015eefbce7115684245f9f52
+Homepage: http://aacgain.altosdesign.com/
+Description: Lossless mp4 normalizer with statistical analysis
+ AACGain normalizes the volume of digital music files using the Replay Gain
+ algorithm. It works by modifying the global_gain fields in the mp4 samples.
+ Free-form metadata tags are added to the file to save undo information,
+ making the normalization process reversable. It supports AAC
+ (mp4/m4a/QuickTime) audio files in addition to mp3 files.
+ .
+ AACGain uses the same command-line user interface as mp3gain
+
+Package: fonts-fira
+Architecture: all
+Version: 4.106-1~sid
+Multi-Arch: foreign
+Priority: optional
+Section: fonts
+Maintainer: Zhong Jianxin <azuwis@gmail.com>
+Installed-Size: 12499
+Pre-Depends: dpkg (>= 1.15.6~)
+Filename: pool/main/fonts-fira_4.106-1~sid_all.deb
+Size: 4347262
+MD5sum: f0ef0adfa8ccd4271d5cb7da632076c5
+SHA1: 437f4cf8af7865e19da9cd17bb578fd161263248
+SHA256: ba336b8958be371bba0cbd3e7d0dcb80841a28c35f6d4113d64c2203a84da2b4
+SHA512: e33ace60d2c12a0cbc3475cd15615c6a2801df20913de98bb346a484206e4f96a644bc1bf2cdde03b3ca887d0b4d65175fbdc8213c334bff45c4bc81fa439678
+Homepage: https://github.com/mozilla/Fira
+Description: sans-serif and monospace typeface family font
+ This package provides sans-serif and monospace typeface family font designed
+ by Erik Spiekermann, Ralph du Carrois, Anja Meiners and Botio Nikoltchev.
+
+Package: kchmviewer
+Architecture: amd64
+Version: 7.7-4
+Priority: optional
+Section: kde
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Installed-Size: 684
+Depends: libc6 (>= 2.14), libchm1 (>= 0.40), libgcc1 (>= 1:3.0), libgl1, libqt5core5a (>= 5.9.0~beta), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5webkit5 (>= 5.6.0~rc), libqt5widgets5 (>= 5.0.2), libqt5xml5 (>= 5.1.0), libstdc++6 (>= 5), libx11-6, libzip4 (>= 0.10)
+Filename: pool/main/kchmviewer_7.7-4_amd64.deb
+Size: 234064
+MD5sum: d5d7e4e5835dcb2b08eed5ecfae9bd09
+SHA1: fde9dd403f79f552d39c06b2c4e0a2f2865a576c
+SHA256: 9f73553008b375f33ecab18422ed66d1a9fbf0697337a9b6ce4329a2969c4c77
+SHA512: 46cff3e1ade90529286a890f290229c6f03a5a8b6bef0b50c317c05a7313d0b7dfa3904834a576703ee9e7f901a750b51384006139b39c4bf73fa5a1b83b5be2
+Homepage: http://www.kchmviewer.net/
+Description: CHM viewer for KDE
+ KchmViewer is a chm (MS HTML help file format) viewer, written in C++.
+ Unlike most existing CHM viewers for Unix, it uses Trolltech Qt widget
+ library, and does not depend on KDE or GNOME. However, it may be compiled
+ with full KDE support, including KDE widgets and KIO/KHTML.
+ .
+ The main advantage of KchmViewer is non-English language support. Unlike
+ others, KchmViewer in most cases correctly detects help file encoding,
+ correctly shows tables of context of Russian, Korean, Chinese and Japanese
+ help files, and correctly searches in non-English help files (search for
+ MBCS languages - ja/ko/ch is still in progress).
+ .
+ Completely safe and harmless. Does not support JavaScript in any way,
+ optionally warns you before opening an external web page, or switching to
+ another help file. Shows an appropriate image for every TOC entry.
+ .
+ KchmViewer Has complete chm index support, including multiple index entries,
+ cross-links and parent/child entries in index as well as Persistent bookmarks
+ support. Correctly detects and shows encoding of any valid chm file.
+
+Package: libnfc-bin
+Architecture: amd64
+Version: 1.7.1+git197-g96eb707-1
+Priority: extra
+Section: utils
+Source: libnfc
+Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Installed-Size: 153
+Depends: libc6 (>= 2.7), libnfc5 (>= 1.7.1+git197-g96eb707-1)
+Filename: pool/main/libnfc-bin_1.7.1+git197-g96eb707-1_amd64.deb
+Size: 51408
+MD5sum: 0c8e2e8c5ffe4886a8af1c80d37a07a1
+SHA1: c1a987aca5efbc487bf7fa63e8fe0f084bf39673
+SHA256: d3551dd5724b1f663be2a3cdbab1f150d192da516ffbacc396954d50d72ad84f
+SHA512: 21df6efa43cee323e2de17413f972993e39f1ce82322963d9ec44b4b0d7d01d211bd1297120ff1992df92216221e55e787a805bbbb191acff45408cf61dab97f
+Homepage: http://www.nfc-tools.org/
+Description: Near Field Communication (NFC) binaries
+ libnfc is a library for Near Field Communication. It abstracts the
+ low-level details of communicating with the devices away behind an
+ easy-to-use high-level API.
+ It supports most hardware based on the NXP PN531, PN532 or PN533
+ controller chips.
+ .
+ This package contains some utils that come along with libnfc, for
+ development or debugging purposes (including nfc-list, nfc-mfclassic,
+ nfc-mfultralight, etc).
+
+Package: libnfc5
+Architecture: amd64
+Version: 1.7.1+git197-g96eb707-1
+Multi-Arch: same
+Priority: extra
+Section: libs
+Source: libnfc
+Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Installed-Size: 192
+Depends: libc6 (>= 2.17), libusb-0.1-4 (>= 2:0.1.12)
+Breaks: libnfc4
+Replaces: libnfc4
+Filename: pool/main/libnfc5_1.7.1+git197-g96eb707-1_amd64.deb
+Size: 73012
+MD5sum: 08e2ee305a76829592edfc46d46e5e4e
+SHA1: 71a70f628e9ffe834852bc7176c077e64c17d1e8
+SHA256: 43ed43709fd09bf43253e15b4a83de9a4d8293396f182f1cf1892faa7dfccac6
+SHA512: 146ccf677cbc93f9ce0fc785153c922c8ee88392712712e5932a4d15c6d249eab4957893e0fb7afb087592e8a6bcd6e2d9a3453a1e7d80e7715595be35f2bf62
+Homepage: http://www.nfc-tools.org/
+Description: Near Field Communication (NFC) library
+ libnfc is a library for Near Field Communication. It abstracts the
+ low-level details of communicating with the devices away behind an
+ easy-to-use high-level API.
+ It supports most hardware based on the NXP PN531, PN532 or PN533
+ controller chips.
+ .
+ This package contains the runtime library files needed to run software
+ using libnfc.
+
+Package: mako-notifier
+Architecture: amd64
+Version: 1.2+git60-1
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Maintainer: Birger Schacht <birger@rantanplan.org>
+Installed-Size: 93
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.6.0), libglib2.0-0 (>= 2.12.0), libpango-1.0-0 (>= 1.29.4), libpangocairo-1.0-0 (>= 1.22.0), libsystemd0 (>= 222), libwayland-client0 (>= 1.9.91)
+Filename: pool/main/mako-notifier_1.2+git60-1_amd64.deb
+Size: 30820
+MD5sum: 192c10aede8d54dd1b6a3193a41e1ab3
+SHA1: e89ea17a40c2c4c5db5db70fd58286729e86554b
+SHA256: a0f79f51aae7a288ed1e6e0fcfeeaffba435c99366d147ceb236803fcb7f9983
+SHA512: 5451a6eb0e4dbd0c9c1528086910468fe2fea02b87b7776eef0c63e2ff806ac0362fc086ba2c7fd2879df9cf34eed022b587a61f1ad9d5cd3d2bc52f0657b0cc
+Homepage: https://wayland.emersion.fr/mako/
+Description: lightweight notification daemon for Wayland compositors
+ mako is a lightweight notification daemon for Wayland compositors that support
+ the layer-shell protocol.
+
+Package: mfcuk
+Architecture: amd64
+Version: 0.3.8-0
+Priority: extra
+Section: utils
+Maintainer: Zhong Jianxin <azuwis@gmail.com>
+Installed-Size: 53
+Depends: libc6 (>= 2.14), libnfc5 (>= 1.7.0~rc7), libusb-0.1-4 (>= 2:0.1.12)
+Filename: pool/main/mfcuk_0.3.8-0_amd64.deb
+Size: 20536
+MD5sum: 6c278e8a8e0e7f47da943a4fd68eb175
+SHA1: 1bb72a244ed15e83db45a55e9375174e89968f24
+SHA256: 3bac961dde47fa1afc006d5dde0e14d356aa20cf5a19b9c338e67bd6a102eb4a
+SHA512: 009adaf6b95121ed17ed0a01fc6e38313c5d5d7b4b3b9e5efd1eabe1ca505c47769e654ad2c65d01a19647bcb58bab97a39a96681e575d945c3b785112216145
+Homepage: https://github.com/nfc-tools/mfcuk
+Description: MiFare Classic Universal toolKit
+ MFCUK is a key recovery tool for MIFARE Classic.
+
+Package: mlvpn
+Architecture: amd64
+Version: 2.3.2-brew1
+Priority: optional
+Section: net
+Maintainer: Laurent Coustet <ed@zehome.com>
+Installed-Size: 171
+Depends: libc6 (>= 2.14), libev4 (>= 1:4.04), libpcap0.8 (>= 1.0.0), libsodium23 (>= 0.6.0), net-tools, adduser, passwd
+Filename: pool/main/mlvpn_2.3.2-brew1_amd64.deb
+Size: 50068
+MD5sum: 30ad1404a5b297629b7563a64633fa08
+SHA1: dc599522044cef0252589bf3f8d1150b5c325fd7
+SHA256: e4b0d1f7222797b1ece587b6f0e53ecfe86216d6ced564d265a844acf71682a2
+SHA512: 0f3b6f40ecad949694dd759945c4cee9b6bc17757dfb87c1261b58a3eb9bc7bfda6500ad64573e94e9184086f61b90fcf8077bbe0dbe37c3d969a5100f782ef6
+Homepage: http://www.mlvpn.fr/
+Description: MultiLink Virtual Public Network aggregator.
+ MLVPN aggregates multiple links into one tun/tap tunnel.
+
+Package: shotcut
+Architecture: amd64
+Version: 19.02.28-1
+Priority: optional
+Section: video
+Maintainer: Gürkan Myczko <gurkan@phys.ethz.ch>
+Installed-Size: 13917
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libgl1, libmlt++3 (>= 6.12.0), libmlt6 (>= 6.12.0), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.7.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5opengl5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.6.1), libqt5quickwidgets5 (>= 5.11.0), libqt5sql5 (>= 5.0.2), libqt5webkit5 (>= 5.6.0~rc), libqt5websockets5 (>= 5.6.0), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5), libx11-6, libjs-three
+Filename: pool/main/shotcut_19.02.28-1_amd64.deb
+Size: 2387988
+MD5sum: 7a735cd0112a4c65bfda9770304650cf
+SHA1: 1fbd4c52ae3f476333360787ed3ef46735ac0fac
+SHA256: 476baeee156d5e518bc1d7c8b539ec192f3f268bd45f2a7079fc50b10d659c4f
+SHA512: ff0294a9c8bf0bd81b78c322bec827fb62cc4517871e12d76ea217f3623a89bb319d77362321051571c60c826ae1ab887299c864e8e904023cc3c0f8b5f640ee
+Homepage: https://www.shotcut.org/
+Description: video editor
+ This is a video editor with features like 4k resolution support,
+ network stream playback, audio/webcam captures, and many more.
+
