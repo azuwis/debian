@@ -192,18 +192,18 @@ Description: MultiLink Virtual Public Network aggregator.
 
 Package: shotcut
 Architecture: amd64
-Version: 19.02.28-1
+Version: 19.04.30-1
 Priority: optional
 Section: video
 Maintainer: Gürkan Myczko <gurkan@phys.ethz.ch>
-Installed-Size: 13917
-Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libgl1, libmlt++3 (>= 6.12.0), libmlt6 (>= 6.12.0), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.7.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5opengl5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.6.1), libqt5quickwidgets5 (>= 5.11.0), libqt5sql5 (>= 5.0.2), libqt5webkit5 (>= 5.6.0~rc), libqt5websockets5 (>= 5.6.0), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5), libx11-6, libjs-three
-Filename: pool/main/shotcut_19.02.28-1_amd64.deb
-Size: 2387988
-MD5sum: 7a735cd0112a4c65bfda9770304650cf
-SHA1: 1fbd4c52ae3f476333360787ed3ef46735ac0fac
-SHA256: 476baeee156d5e518bc1d7c8b539ec192f3f268bd45f2a7079fc50b10d659c4f
-SHA512: ff0294a9c8bf0bd81b78c322bec827fb62cc4517871e12d76ea217f3623a89bb319d77362321051571c60c826ae1ab887299c864e8e904023cc3c0f8b5f640ee
+Installed-Size: 14222
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libgl1, libmlt++3 (>= 6.16.0), libmlt6 (>= 6.16.0), libqt5core5a (>= 5.11.0~rc1), libqt5gui5 (>= 5.7.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.9.0~beta), libqt5opengl5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.6.1), libqt5quickwidgets5 (>= 5.11.0), libqt5sql5 (>= 5.0.2), libqt5webkit5 (>= 5.6.0~rc), libqt5websockets5 (>= 5.6.0), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5), libx11-6, libjs-three, qml-module-qtqml-models2
+Filename: pool/main/shotcut_19.04.30-1_amd64.deb
+Size: 2399964
+MD5sum: 693b5414d2d9865ea53cadaef451b18e
+SHA1: 57dff82aa275afb5aebe167f172cba9a081e6c3f
+SHA256: 15bbc2d331ea3872f5eae862ea21c51c11b35a5b0f7e5ba72ae54f550ec3c326
+SHA512: 64f73db7499f7d083e02a034b55826d60e0ec51c92f36c1c6d6a5d5ac152c20db2b6005d52140947afbdddde3aab557241cefd0b7d77a6214d63ed26dbcd1c9b
 Homepage: https://www.shotcut.org/
 Description: video editor
  This is a video editor with features like 4k resolution support,
