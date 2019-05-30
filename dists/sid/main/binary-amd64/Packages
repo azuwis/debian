@@ -25,19 +25,19 @@ Description: Lossless mp4 normalizer with statistical analysis
 
 Package: fonts-fira
 Architecture: all
-Version: 4.106-1~sid
+Version: 4.106-2
 Multi-Arch: foreign
 Priority: optional
 Section: fonts
 Maintainer: Zhong Jianxin <azuwis@gmail.com>
-Installed-Size: 12499
+Installed-Size: 8868
 Pre-Depends: dpkg (>= 1.15.6~)
-Filename: pool/main/fonts-fira_4.106-1~sid_all.deb
-Size: 4347262
-MD5sum: f0ef0adfa8ccd4271d5cb7da632076c5
-SHA1: 437f4cf8af7865e19da9cd17bb578fd161263248
-SHA256: ba336b8958be371bba0cbd3e7d0dcb80841a28c35f6d4113d64c2203a84da2b4
-SHA512: e33ace60d2c12a0cbc3475cd15615c6a2801df20913de98bb346a484206e4f96a644bc1bf2cdde03b3ca887d0b4d65175fbdc8213c334bff45c4bc81fa439678
+Filename: pool/main/fonts-fira_4.106-2_all.deb
+Size: 3183708
+MD5sum: 43e0a9b2398b3dbd161af79571427120
+SHA1: b1b6932979bc1f10feb9a733be916888d55846a4
+SHA256: b6c4e06b15611adb982798ce2d64165b25573c42c40cc2a1b41fb9be4351bccb
+SHA512: d63949caeaf72854581d49973a5613e1df76cdcbf51586620ed1aa72dd7471e148be42cdf95e513cf0eb958a44cd8ee63cf5e583417b444352f3ae3064ff6d48
 Homepage: https://github.com/mozilla/Fira
 Description: sans-serif and monospace typeface family font
  This package provides sans-serif and monospace typeface family font designed
