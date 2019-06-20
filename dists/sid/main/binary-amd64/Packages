@@ -201,6 +201,36 @@ Description: library for accessing Gigasampler, DLS, SoundFont, KORG, AKAI files
  For more information visit
  http://www.linuxsampler.org/libgig/
 
+Package: liblinuxsampler
+Architecture: amd64
+Version: 2.1.0+svn9-1
+Priority: optional
+Section: libs
+Source: linuxsampler
+Maintainer: LinuxSampler Developers <linuxsampler-devel@lists.sourceforge.net>
+Installed-Size: 72394
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.17), libgcc1 (>= 1:3.0), libgig8, libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libsndfile1 (>= 1.0.20), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 5.2)
+Filename: pool/main/liblinuxsampler_2.1.0+svn9-1_amd64.deb
+Size: 12704744
+MD5sum: 32ffe00c682c41e7366baa6a85a297b4
+SHA1: 6cf2a2344f15fa556e20716ee003acd089094ce7
+SHA256: 5acb20b8111c21878bf46da44bf59aacad22829b316a6e2f940b1db8236535b4
+SHA512: 9059bf9f1d1799bf0fa1d80953c8435f0844723abb2d3ab3cc31568af6a8ce5245c2e4181d6eff60e5314130c9274b287c7bc1a6802d92f1d7eecfd8bfcc475d
+Description: realtime audio sampler (base library)
+ LinuxSampler is a free software audio sampler with professional grade features.
+ It offers disk streaming capability, real-time instrument scripts, and
+ supports the following three sampler formats:
+ .
+ - GigaStudio 4, previously known as Gigasampler (.gig)
+ - SFZ2 (.sfz)
+ - SoundFont 2 (.sf2)
+ .
+ This package provides the LinuxSampler backend library (liblinuxsampler),
+ that is the sampler engine together with audio and MIDI drivers. It also
+ includes the DSSI and LV2 plugin binaries of the sampler.
+ .
+ For more informations please visit http://www.linuxsampler.org
+
 Package: libnfc-bin
 Architecture: amd64
 Version: 1.7.1+git197-g96eb707-1
@@ -256,6 +286,40 @@ Description: Near Field Communication (NFC) library
  .
  This package contains the runtime library files needed to run software
  using libnfc.
+
+Package: linuxsampler
+Architecture: amd64
+Version: 2.1.0+svn9-1
+Priority: optional
+Section: sound
+Maintainer: LinuxSampler Developers <linuxsampler-devel@lists.sourceforge.net>
+Installed-Size: 2902
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), liblinuxsampler, libstdc++6 (>= 5.2)
+Suggests: gigtools, qsampler, gigedit
+Filename: pool/main/linuxsampler_2.1.0+svn9-1_amd64.deb
+Size: 556776
+MD5sum: 2b72883d46da11297bea24a629e68234
+SHA1: 1760c30f3bd7557d185576183f6617ce83658a45
+SHA256: 57100c05b77002e5d9f890bd1384441dcd2843b5150e6a9cb93c9e04202daab8
+SHA512: d55951ac60d969ba6972d28c3815496f81af6e4d4a8f2011b147ab426add7283fe4ebb52844f55aec7429585be1420f6fe891ba787bca5efd4ea172d55aa4664
+Description: realtime audio sampler
+ LinuxSampler is a free software audio sampler with professional grade features.
+ It offers disk streaming capability, real-time instrument scripts, and
+ supports the following three sampler formats:
+ .
+ - GigaStudio 4, previously known as Gigasampler (.gig)
+ - SFZ2 (.sfz)
+ - SoundFont 2 (.sf2)
+ .
+ This package provides the backend application of LinuxSampler.
+ LinuxSampler can be controlled via network interface which uses an ASCII
+ based protocol called LSCP. You might consider to install a GUI frontend
+ for LinuxSampler as well (such as QSampler or JSampler/Fantasia).
+ .
+ This package also provides the LSCP shell, which can be used to control the
+ sampler from the command line.
+ .
+ For more informations please visit http://www.linuxsampler.org
 
 Package: mako-notifier
 Architecture: amd64
