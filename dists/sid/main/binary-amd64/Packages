@@ -349,43 +349,25 @@ Description: realtime audio sampler
  .
  For more informations please visit http://www.linuxsampler.org
 
-Package: mako-notifier
+Package: mfoc-hardnested
 Architecture: amd64
-Version: 1.2+git60-1
-Multi-Arch: foreign
+Version: 0.10.9-1
 Priority: optional
-Section: x11
-Maintainer: Birger Schacht <birger@rantanplan.org>
-Installed-Size: 93
-Depends: libc6 (>= 2.14), libcairo2 (>= 1.6.0), libglib2.0-0 (>= 2.12.0), libpango-1.0-0 (>= 1.29.4), libpangocairo-1.0-0 (>= 1.22.0), libsystemd0 (>= 222), libwayland-client0 (>= 1.9.91)
-Filename: pool/main/mako-notifier_1.2+git60-1_amd64.deb
-Size: 30820
-MD5sum: 192c10aede8d54dd1b6a3193a41e1ab3
-SHA1: e89ea17a40c2c4c5db5db70fd58286729e86554b
-SHA256: a0f79f51aae7a288ed1e6e0fcfeeaffba435c99366d147ceb236803fcb7f9983
-SHA512: 5451a6eb0e4dbd0c9c1528086910468fe2fea02b87b7776eef0c63e2ff806ac0362fc086ba2c7fd2879df9cf34eed022b587a61f1ad9d5cd3d2bc52f0657b0cc
-Homepage: https://wayland.emersion.fr/mako/
-Description: lightweight notification daemon for Wayland compositors
- mako is a lightweight notification daemon for Wayland compositors that support
- the layer-shell protocol.
-
-Package: mfcuk
-Architecture: amd64
-Version: 0.3.8-0
-Priority: extra
 Section: utils
-Maintainer: Zhong Jianxin <azuwis@gmail.com>
-Installed-Size: 53
-Depends: libc6 (>= 2.14), libnfc5 (>= 1.7.0~rc7), libusb-0.1-4 (>= 2:0.1.12)
-Filename: pool/main/mfcuk_0.3.8-0_amd64.deb
-Size: 20536
-MD5sum: 6c278e8a8e0e7f47da943a4fd68eb175
-SHA1: 1bb72a244ed15e83db45a55e9375174e89968f24
-SHA256: 3bac961dde47fa1afc006d5dde0e14d356aa20cf5a19b9c338e67bd6a102eb4a
-SHA512: 009adaf6b95121ed17ed0a01fc6e38313c5d5d7b4b3b9e5efd1eabe1ca505c47769e654ad2c65d01a19647bcb58bab97a39a96681e575d945c3b785112216145
-Homepage: https://github.com/nfc-tools/mfcuk
-Description: MiFare Classic Universal toolKit
- MFCUK is a key recovery tool for MIFARE Classic.
+Maintainer: gelotus <gelotus@github.com>
+Installed-Size: 1033
+Depends: libc6 (>= 2.29), liblzma5 (>= 5.1.1alpha+20120614), libnfc6 (>= 1.7.0~rc7)
+Filename: pool/main/mfoc-hardnested_0.10.9-1_amd64.deb
+Size: 650244
+MD5sum: ea283d475904eed3a37cb408069f7af6
+SHA1: dd6a7b45966bbdd2f45e9da509b97e1e87cb48fa
+SHA256: baf69b44bde917b6377eaef5f22b4661cc2fd10506a97e1bc48c22288ba73d78
+SHA512: 4e6b521927b1ae07da8adf99597f4cbe94476b8b5f633c0add7c8dfb719e06efb75ef114cd5096c9c3db6d26c56558ff32b07b0b5c74ed335753bdd755b95e0d
+Homepage: https://github.com/nfc-tools/mfoc-hardnested/
+Description: MIFARE Classic offline cracker
+ This package includes the mfoc program which cracks the
+ encryption keys of the MIFARE Classic chip and dumps the
+ chip's memory contents to a file.
 
 Package: mlvpn
 Architecture: amd64
