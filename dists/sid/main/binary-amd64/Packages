@@ -106,6 +106,211 @@ Description: CHM viewer for KDE
  cross-links and parent/child entries in index as well as Persistent bookmarks
  support. Correctly detects and shows encoding of any valid chm file.
 
+Package: libime-bin
+Architecture: amd64
+Version: 0.0~git20200928.9e409f5-1
+Priority: optional
+Section: utils
+Source: libime
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 708
+Depends: libimecore0 (= 0.0~git20200928.9e409f5-1), libimepinyin0 (= 0.0~git20200928.9e409f5-1), libimetable0 (= 0.0~git20200928.9e409f5-1), libboost-iostreams1.71.0, libc6 (>= 2.17), libdouble-conversion3 (>= 2.0.0), libfcitx5utils1 (>= 0.0~git20200626.2e9821a), libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
+Filename: pool/main/libime-bin_0.0~git20200928.9e409f5-1_amd64.deb
+Size: 197060
+MD5sum: b421634b87c2fbcc5b33e580522d6715
+SHA1: 26b2ecd78b0e848f9753af5bcbb0ac77612056be
+SHA256: 158167716cd5a235aade3f615834ae35f7d3a10f583ce7c149d30c8a333eba48
+SHA512: ac1d9231c92f996eb96f6170e6c7ad38c67d4be6be65cdf8a5c61d2768c4fb8ed0a99aa7f0606db79333ce3a55e1dd9b34c1d739e29615b9061d0aeefc124630
+Homepage: https://github.com/fcitx/libime
+Description: Generic Input Method Implementation (tools)
+ Libime is a generic input method implementation library. It is mainly
+ used by fcitx5, the next generation of fcitx input method framework.
+ .
+ This package provides tools provided by libime.
+
+Package: libime-data-language-model
+Architecture: amd64
+Version: 0.0~git20200928.9e409f5-1
+Multi-Arch: same
+Priority: optional
+Section: utils
+Source: libime
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 22194
+Filename: pool/main/libime-data-language-model_0.0~git20200928.9e409f5-1_amd64.deb
+Size: 16740088
+MD5sum: 3c4bede66432240e8594b98757e20229
+SHA1: 3781e3059f1a6367367b6b9b564730c0832b9468
+SHA256: 38e0546a90682e6a810754b69ed1b01e9159427407c1d665ff75457af4f58212
+SHA512: 05d83a31995fa054f0e7f5436aa00c2044046c5a2321741e2c7ff3b62c472e2c63b5914fa7598e7d9220331225f5a19f91a6c52dc86cdb14d22c73cffc26d523
+Homepage: https://github.com/fcitx/libime
+Description: Generic Input Method Implementation library (language model)
+ Libime is a generic input method implementation library. It is mainly
+ used by fcitx5, the next generation of fcitx input method framework.
+ .
+ This package provides architecture-dependent language models.
+
+Package: libime-data
+Architecture: all
+Version: 0.0~git20200928.9e409f5-1
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Source: libime
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 26528
+Depends: libime-data-language-model (>= 0.0~git20200928.9e409f5-1), libime-data-language-model (<< 0.0~git20200928.9e409f5-1.1~)
+Filename: pool/main/libime-data_0.0~git20200928.9e409f5-1_all.deb
+Size: 8972168
+MD5sum: cbdf572aaed8851f4bc0be17390c799b
+SHA1: 52b58392f07bacec0e4121bfbc638f811cd484b4
+SHA256: 033b47f59d1766dae14c0f94c9bebefb114104020223beffa45c4b199068512c
+SHA512: 731ec93c28ab149058cb6a2f2e6e77f956e4305eb3029d4cb719a1810574c24511a16df2c95d4a42f9c0e2e159af279c2fd71d78789e95b2cef1dfc6db3b3273
+Homepage: https://github.com/fcitx/libime
+Description: Generic Input Method Implementation library (data files)
+ Libime is a generic input method implementation library. It is mainly
+ used by fcitx5, the next generation of fcitx input method framework.
+ .
+ This package provides architecture-independent data files.
+
+Package: libimecore-dev
+Architecture: amd64
+Version: 0.0~git20200928.9e409f5-1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libime
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 85
+Depends: libimecore0 (= 0.0~git20200928.9e409f5-1)
+Filename: pool/main/libimecore-dev_0.0~git20200928.9e409f5-1_amd64.deb
+Size: 17000
+MD5sum: e0e00839d010e93b36c8190f06733214
+SHA1: 5162fbc3a28808251c625f95e2a3431164ae5fef
+SHA256: c1994d17683e2f17199257c391a7cadba13acde1e160e8751d878124490179b7
+SHA512: 167a4007cd919664b370de6cece8518dea173bc41fb32f6b404bac537d61c24af59cc50ba68f96868f46cd1ac7901a9b584f8833d9ca71b2e4ba8f372e748b62
+Homepage: https://github.com/fcitx/libime
+Description: Generic Input Method Implementation (core dev files)
+ Libime is a generic input method implementation library. It is mainly
+ used by fcitx5, the next generation of fcitx input method framework.
+ .
+ This package provides development files for core library.
+
+Package: libimecore0
+Architecture: amd64
+Version: 0.0~git20200928.9e409f5-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libime
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 702
+Depends: libime-data (= 0.0~git20200928.9e409f5-1), libc6 (>= 2.29), libdouble-conversion3 (>= 2.0.0), libfcitx5utils1 (>= 0.0~git20200626.2e9821a), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Filename: pool/main/libimecore0_0.0~git20200928.9e409f5-1_amd64.deb
+Size: 207372
+MD5sum: 80aef418d9eadcd51c11cb504b0a65d0
+SHA1: 836465e8d0f0bd3a6fc8ab3ce181079f95dbe660
+SHA256: dd31342899765220740e313e05bc55abdb0b28900b7d0fe7668bbcbfade16da2
+SHA512: 103057185ed6e28bacc0966380f07581e079e2e6396055c1ea7da37637f18399261953f96bc1ad9f06698267b3ee49c4eb66cc6162e6dadf72998970d09935db
+Homepage: https://github.com/fcitx/libime
+Description: Generic Input Method Implementation (core library)
+ Libime is a generic input method implementation library. It is mainly
+ used by fcitx5, the next generation of fcitx input method framework.
+ .
+ This package provides its core library.
+
+Package: libimepinyin-dev
+Architecture: amd64
+Version: 0.0~git20200928.9e409f5-1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libime
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 68
+Depends: libimepinyin0 (= 0.0~git20200928.9e409f5-1)
+Filename: pool/main/libimepinyin-dev_0.0~git20200928.9e409f5-1_amd64.deb
+Size: 13568
+MD5sum: 676ea24dac464e3d1e0682f58c16d9cc
+SHA1: 396208c798c8248e5b4fcce605a52f528a458f47
+SHA256: b9e6a1d2273feb3f191c1874713fec7770887aef3f5bd58d24c677fcf6c85403
+SHA512: 294c9a5f85171537577fc6165ce9fa28fd8d02d68a3a32dcd5bb8285d1b65b5a76b62106ea97687ae6429bdb47af593a91cc0010b27316cefac6334ec21819c3
+Homepage: https://github.com/fcitx/libime
+Description: Generic Input Method Implementation (pinyin dev files)
+ Libime is a generic input method implementation library. It is mainly
+ used by fcitx5, the next generation of fcitx input method framework.
+ .
+ This package provides development files for pinyin library.
+
+Package: libimepinyin0
+Architecture: amd64
+Version: 0.0~git20200928.9e409f5-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libime
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 434
+Depends: libc6 (>= 2.14), libfcitx5utils1 (>= 0.0~git20200626.2e9821a), libgcc-s1 (>= 3.0), libimecore0 (>= 0.0~git20200928.9e409f5), libstdc++6 (>= 5.2)
+Filename: pool/main/libimepinyin0_0.0~git20200928.9e409f5-1_amd64.deb
+Size: 136356
+MD5sum: 04445787b294db7952c784a73328422d
+SHA1: bdf7f1f19fef28d5aa588b324ab84586c1edb42d
+SHA256: 091a0e46c052dd52d10a9a95eea914b2c76132316a0d83208809f9b83c39dabc
+SHA512: 5901ba0f3fafce74019b6f867b44048b0ea173a6f61f36299b012feca42a5472ba91811117ed6f841c78699a4831d22a2faa9cb5e1080a8d5447753c75a4a115
+Homepage: https://github.com/fcitx/libime
+Description: Generic Input Method Implementation (pinyin library)
+ Libime is a generic input method implementation library. It is mainly
+ used by fcitx5, the next generation of fcitx input method framework.
+ .
+ This package provides its pinyin library.
+
+Package: libimetable-dev
+Architecture: amd64
+Version: 0.0~git20200928.9e409f5-1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libime
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 55
+Depends: libimetable0 (= 0.0~git20200928.9e409f5-1)
+Filename: pool/main/libimetable-dev_0.0~git20200928.9e409f5-1_amd64.deb
+Size: 12240
+MD5sum: 16943b08f72e0e9c0a24b1ea284ab582
+SHA1: 4090568aa280e124c559a7573415edd9ae800bc4
+SHA256: c4d3174a0955f722f0ab6ada4c59c0aea4ea5f26a6262f45ed733af467ee502b
+SHA512: e2b570ba3a85bc4268594b0cb949c3299680176c41eff00b2d9d453330223d019611c07d74b8079f281dffd7329c4218210a38b277c118a8df29cc1da64fdc53
+Homepage: https://github.com/fcitx/libime
+Description: Generic Input Method Implementation (table dev files)
+ Libime is a generic input method implementation library. It is mainly
+ used by fcitx5, the next generation of fcitx input method framework.
+ .
+ This package provides development files for table library.
+
+Package: libimetable0
+Architecture: amd64
+Version: 0.0~git20200928.9e409f5-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libime
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Installed-Size: 270
+Depends: libc6 (>= 2.14), libfcitx5utils1 (>= 0.0~git20200626.2e9821a), libgcc-s1 (>= 3.0), libimecore0 (>= 0.0~git20200928.9e409f5), libstdc++6 (>= 5.2)
+Filename: pool/main/libimetable0_0.0~git20200928.9e409f5-1_amd64.deb
+Size: 86452
+MD5sum: 2adb8fff5923718d02d2f58610ea8237
+SHA1: a7ca4b9aff76d46e59e4e7ba056df928b6eedf80
+SHA256: e79fd6507ccbcaa2752b7a9866405b31eca368eeddbc30103e34987a4ce44b83
+SHA512: 768574d5c16e688f5526d51e2527685f89a50afc2e3bdf80c7c97436ffd43848d94c73f58620e8f9bed5840bd3449b3a015124dc7a4268ef463a2446deaf9589
+Homepage: https://github.com/fcitx/libime
+Description: Generic Input Method Implementation (table library)
+ Libime is a generic input method implementation library. It is mainly
+ used by fcitx5, the next generation of fcitx input method framework.
+ .
+ This package provides its table library.
+
 Package: libnfc-bin
 Architecture: amd64
 Version: 1.7.1+git197-g96eb707-1
